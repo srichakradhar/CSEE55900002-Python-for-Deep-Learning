@@ -17,10 +17,10 @@ and call it from main function.
 
 def main():
     # get the input string from user
-    s = input("string input:")
+    s = input("Input string: ")
 
     # use string_alternative function to get output
-    print("Output:" + string_alternative(s))
+    print("Output: " + string_alternative(s))
 
 def string_alternative(s):
     return ''.join([s[i] for i in range(0,len(s),2)])

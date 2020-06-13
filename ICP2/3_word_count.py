@@ -3,7 +3,7 @@ from collections import Counter
 
 def main():
     """
-    a python program to find the wordcount in a file for each line and then
+    A python program to find the wordcount in a file for each line and then
     print the output.
     Finally store the output back to the file.
 
