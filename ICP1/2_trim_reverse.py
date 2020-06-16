@@ -19,8 +19,9 @@ ntyp
 def main():
     # get input
     input_string = input("String: ")
+    trim_chars = int(input("Trim size: "))
 
-    print(trim_reverse(input_string))
+    print(trim_reverse(input_string, trim_chars))
 
 
 def trim_reverse(input_string, trim_size=2):

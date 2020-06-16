@@ -33,7 +33,7 @@ py3: import division
 
 breaking changes introduced in python3 were packaged into the in-built __future__ module in python2
 
-3. Integer division:
+4. Integer division:
 
 Python 2
 ```py
@@ -65,7 +65,7 @@ Python 3.4.1
 3 // 2.0 = 1.0
 ```
 
-4. __next__() in python 2 vs the .next() method in python 3
+5. __next__() in python 2 vs the .next() method in python 3
 Python 2:
 ```py
 next(my_generator)
@@ -76,7 +76,7 @@ Python 3:
 next(my_generator)
 ```
 
-5. Inheritance in Simpler
+6. Inheritance in Simpler
 `super() -> same as super(__class__, self)`
 
 
