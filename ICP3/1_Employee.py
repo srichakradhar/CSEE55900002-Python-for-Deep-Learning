@@ -59,10 +59,10 @@ def main():
     employees.append(fte1)
     fte2 = FulltimeEmployee("Employee2", "FamilyName2", 180000, "RnD")
     employees.append(fte2)
-    fte3 = FulltimeEmployee("Employee3", "FamilyName3", 160000, "Marketing")
-    employees.append(fte3)
-    fte4 = FulltimeEmployee("Employee4", "FamilyName4", 135000, "HR")
-    employees.append(fte4)
+    emp1 = Employee("Employee3", "FamilyName3", 160000, "Marketing")
+    employees.append(emp1)
+    emp2 = Employee("Employee4", "FamilyName4", 135000, "HR")
+    employees.append(emp2)
     print("Average salary:", FulltimeEmployee.average_salary(employees))
 
 

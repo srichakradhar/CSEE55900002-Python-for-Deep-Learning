@@ -28,9 +28,11 @@ def main():
     # continuous uniform distribution in [0, 1).
     # To sample Unif[a, b): (b - a) * random_sample() + a
     random20 = np.random.random_sample(20) * 20 + 1
-
+    print(random20)
+    
     # Reshape the array to 4 by 5
     random20_4by5 = random20.reshape((4, 5))
+    print(random20_4by5)
 
     # Replace the max in each row by 0(axis=1)
     replace_maxmium(random20_4by5, 0, 1)
