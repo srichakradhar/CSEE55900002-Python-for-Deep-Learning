@@ -1,3 +1,17 @@
+"""
+CSEE 5590 0002 Python for Deep Learning
+ICP 3
+author: Srichakradhar Reddy
+student ID: 16298670
+email: snp8b@umsystem.edu
+
+Implement Naïve Bayes and linear SVM methods using scikit-learn library
+Use dataset available in https://umkc.box.com/s/ea6wn1cidukan67t02j60nmp1ljln3kdUse
+train_test_splitto create training and testing part
+Evaluate the model on testing partusing score and
+classification_report(y_true, y_pred)
+"""
+
 import pandas as pd
 from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
